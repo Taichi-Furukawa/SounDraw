@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0871D425169EDB6800484900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D424169EDB6800484900 /* UIKit.framework */; };
+		0871D427169EDB6800484900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D426169EDB6800484900 /* Foundation.framework */; };
+		0871D429169EDB6800484900 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D428169EDB6800484900 /* CoreGraphics.framework */; };
+		0871D42F169EDB6800484900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0871D42D169EDB6800484900 /* InfoPlist.strings */; };
+		0871D431169EDB6800484900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0871D430169EDB6800484900 /* main.m */; };
+		0871D435169EDB6800484900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0871D434169EDB6800484900 /* AppDelegate.m */; };
+		0871D437169EDB6800484900 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0871D436169EDB6800484900 /* Default.png */; };
+		0871D439169EDB6800484900 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0871D438169EDB6800484900 /* Default@2x.png */; };
+		0871D43B169EDB6800484900 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0871D43A169EDB6800484900 /* Default-568h@2x.png */; };
+		0871D43E169EDB6800484900 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0871D43C169EDB6800484900 /* MainStoryboard_iPhone.storyboard */; };
+		0871D441169EDB6800484900 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0871D43F169EDB6800484900 /* MainStoryboard_iPad.storyboard */; };
+		0871D444169EDB6800484900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0871D443169EDB6800484900 /* ViewController.m */; };
+		0871D44C169EDB6800484900 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D44B169EDB6800484900 /* SenTestingKit.framework */; };
+		0871D44D169EDB6800484900 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D424169EDB6800484900 /* UIKit.framework */; };
+		0871D44E169EDB6800484900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871D426169EDB6800484900 /* Foundation.framework */; };
+		0871D456169EDB6800484900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0871D454169EDB6800484900 /* InfoPlist.strings */; };
+		0871D459169EDB6800484900 /* SounDrowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0871D458169EDB6800484900 /* SounDrowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0871D44F169EDB6800484900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0871D417169EDB6800484900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0871D41F169EDB6800484900;
+			remoteInfo = SounDrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0871D420169EDB6800484900 /* SounDrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SounDrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0871D424169EDB6800484900 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0871D426169EDB6800484900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0871D428169EDB6800484900 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0871D42C169EDB6800484900 /* SounDrow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SounDrow-Info.plist"; sourceTree = "<group>"; };
+		0871D42E169EDB6800484900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0871D430169EDB6800484900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0871D432169EDB6800484900 /* SounDrow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SounDrow-Prefix.pch"; sourceTree = "<group>"; };
+		0871D433169EDB6800484900 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0871D434169EDB6800484900 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0871D436169EDB6800484900 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0871D438169EDB6800484900 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0871D43A169EDB6800484900 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0871D43D169EDB6800484900 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0871D440169EDB6800484900 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0871D442169EDB6800484900 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0871D443169EDB6800484900 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0871D44A169EDB6800484900 /* SounDrowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SounDrowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0871D44B169EDB6800484900 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0871D453169EDB6800484900 /* SounDrowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SounDrowTests-Info.plist"; sourceTree = "<group>"; };
+		0871D455169EDB6800484900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0871D457169EDB6800484900 /* SounDrowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SounDrowTests.h; sourceTree = "<group>"; };
+		0871D458169EDB6800484900 /* SounDrowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SounDrowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0871D41D169EDB6800484900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D425169EDB6800484900 /* UIKit.framework in Frameworks */,
+				0871D427169EDB6800484900 /* Foundation.framework in Frameworks */,
+				0871D429169EDB6800484900 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0871D446169EDB6800484900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D44C169EDB6800484900 /* SenTestingKit.framework in Frameworks */,
+				0871D44D169EDB6800484900 /* UIKit.framework in Frameworks */,
+				0871D44E169EDB6800484900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0871D415169EDB6800484900 = {
+			isa = PBXGroup;
+			children = (
+				0871D42A169EDB6800484900 /* SounDrow */,
+				0871D451169EDB6800484900 /* SounDrowTests */,
+				0871D423169EDB6800484900 /* Frameworks */,
+				0871D421169EDB6800484900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0871D421169EDB6800484900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0871D420169EDB6800484900 /* SounDrow.app */,
+				0871D44A169EDB6800484900 /* SounDrowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0871D423169EDB6800484900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0871D424169EDB6800484900 /* UIKit.framework */,
+				0871D426169EDB6800484900 /* Foundation.framework */,
+				0871D428169EDB6800484900 /* CoreGraphics.framework */,
+				0871D44B169EDB6800484900 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0871D42A169EDB6800484900 /* SounDrow */ = {
+			isa = PBXGroup;
+			children = (
+				0871D433169EDB6800484900 /* AppDelegate.h */,
+				0871D434169EDB6800484900 /* AppDelegate.m */,
+				0871D43C169EDB6800484900 /* MainStoryboard_iPhone.storyboard */,
+				0871D43F169EDB6800484900 /* MainStoryboard_iPad.storyboard */,
+				0871D442169EDB6800484900 /* ViewController.h */,
+				0871D443169EDB6800484900 /* ViewController.m */,
+				0871D42B169EDB6800484900 /* Supporting Files */,
+			);
+			path = SounDrow;
+			sourceTree = "<group>";
+		};
+		0871D42B169EDB6800484900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0871D42C169EDB6800484900 /* SounDrow-Info.plist */,
+				0871D42D169EDB6800484900 /* InfoPlist.strings */,
+				0871D430169EDB6800484900 /* main.m */,
+				0871D432169EDB6800484900 /* SounDrow-Prefix.pch */,
+				0871D436169EDB6800484900 /* Default.png */,
+				0871D438169EDB6800484900 /* Default@2x.png */,
+				0871D43A169EDB6800484900 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0871D451169EDB6800484900 /* SounDrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				0871D457169EDB6800484900 /* SounDrowTests.h */,
+				0871D458169EDB6800484900 /* SounDrowTests.m */,
+				0871D452169EDB6800484900 /* Supporting Files */,
+			);
+			path = SounDrowTests;
+			sourceTree = "<group>";
+		};
+		0871D452169EDB6800484900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0871D453169EDB6800484900 /* SounDrowTests-Info.plist */,
+				0871D454169EDB6800484900 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0871D41F169EDB6800484900 /* SounDrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0871D45C169EDB6800484900 /* Build configuration list for PBXNativeTarget "SounDrow" */;
+			buildPhases = (
+				0871D41C169EDB6800484900 /* Sources */,
+				0871D41D169EDB6800484900 /* Frameworks */,
+				0871D41E169EDB6800484900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SounDrow;
+			productName = SounDrow;
+			productReference = 0871D420169EDB6800484900 /* SounDrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0871D449169EDB6800484900 /* SounDrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0871D45F169EDB6800484900 /* Build configuration list for PBXNativeTarget "SounDrowTests" */;
+			buildPhases = (
+				0871D445169EDB6800484900 /* Sources */,
+				0871D446169EDB6800484900 /* Frameworks */,
+				0871D447169EDB6800484900 /* Resources */,
+				0871D448169EDB6800484900 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0871D450169EDB6800484900 /* PBXTargetDependency */,
+			);
+			name = SounDrowTests;
+			productName = SounDrowTests;
+			productReference = 0871D44A169EDB6800484900 /* SounDrowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0871D417169EDB6800484900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "古川 泰地";
+			};
+			buildConfigurationList = 0871D41A169EDB6800484900 /* Build configuration list for PBXProject "SounDrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0871D415169EDB6800484900;
+			productRefGroup = 0871D421169EDB6800484900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0871D41F169EDB6800484900 /* SounDrow */,
+				0871D449169EDB6800484900 /* SounDrowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0871D41E169EDB6800484900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D42F169EDB6800484900 /* InfoPlist.strings in Resources */,
+				0871D437169EDB6800484900 /* Default.png in Resources */,
+				0871D439169EDB6800484900 /* Default@2x.png in Resources */,
+				0871D43B169EDB6800484900 /* Default-568h@2x.png in Resources */,
+				0871D43E169EDB6800484900 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0871D441169EDB6800484900 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0871D447169EDB6800484900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D456169EDB6800484900 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0871D448169EDB6800484900 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0871D41C169EDB6800484900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D431169EDB6800484900 /* main.m in Sources */,
+				0871D435169EDB6800484900 /* AppDelegate.m in Sources */,
+				0871D444169EDB6800484900 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0871D445169EDB6800484900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0871D459169EDB6800484900 /* SounDrowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0871D450169EDB6800484900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0871D41F169EDB6800484900 /* SounDrow */;
+			targetProxy = 0871D44F169EDB6800484900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0871D42D169EDB6800484900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0871D42E169EDB6800484900 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0871D43C169EDB6800484900 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0871D43D169EDB6800484900 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0871D43F169EDB6800484900 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0871D440169EDB6800484900 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0871D454169EDB6800484900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0871D455169EDB6800484900 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0871D45A169EDB6800484900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0871D45B169EDB6800484900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0871D45D169EDB6800484900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SounDrow/SounDrow-Prefix.pch";
+				INFOPLIST_FILE = "SounDrow/SounDrow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0871D45E169EDB6800484900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SounDrow/SounDrow-Prefix.pch";
+				INFOPLIST_FILE = "SounDrow/SounDrow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0871D460169EDB6800484900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SounDrow.app/SounDrow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SounDrow/SounDrow-Prefix.pch";
+				INFOPLIST_FILE = "SounDrowTests/SounDrowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0871D461169EDB6800484900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SounDrow.app/SounDrow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SounDrow/SounDrow-Prefix.pch";
+				INFOPLIST_FILE = "SounDrowTests/SounDrowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0871D41A169EDB6800484900 /* Build configuration list for PBXProject "SounDrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0871D45A169EDB6800484900 /* Debug */,
+				0871D45B169EDB6800484900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0871D45C169EDB6800484900 /* Build configuration list for PBXNativeTarget "SounDrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0871D45D169EDB6800484900 /* Debug */,
+				0871D45E169EDB6800484900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0871D45F169EDB6800484900 /* Build configuration list for PBXNativeTarget "SounDrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0871D460169EDB6800484900 /* Debug */,
+				0871D461169EDB6800484900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0871D417169EDB6800484900 /* Project object */;
+}
