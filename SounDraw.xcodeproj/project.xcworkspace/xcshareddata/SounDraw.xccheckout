@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>48633C1D-9E77-403A-B08F-6CCC144367BD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SounDraw</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7DFC2F7-C37A-4649-8CFD-AEE99E8CC2FF</key>
+		<string>https://github.com/Taichi-Systems/SounDraw.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SounDraw.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7DFC2F7-C37A-4649-8CFD-AEE99E8CC2FF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Taichi-Systems/SounDraw.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7DFC2F7-C37A-4649-8CFD-AEE99E8CC2FF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7DFC2F7-C37A-4649-8CFD-AEE99E8CC2FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SounDraw</string>
+		</dict>
+	</array>
+</dict>
+</plist>
