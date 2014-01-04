@@ -156,8 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				0871D46A169EE35900484900 /* sorce */,
-				0871D42A169EDB6800484900 /* SounDrow */,
-				0871D451169EDB6800484900 /* SounDrowTests */,
+				0871D42A169EDB6800484900 /* SounDraw */,
+				0871D451169EDB6800484900 /* SounDrawTests */,
 				0871D423169EDB6800484900 /* Frameworks */,
 				0871D421169EDB6800484900 /* Products */,
 			);
@@ -186,7 +186,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0871D42A169EDB6800484900 /* SounDrow */ = {
+		0871D42A169EDB6800484900 /* SounDraw */ = {
 			isa = PBXGroup;
 			children = (
 				0871D433169EDB6800484900 /* AppDelegate.h */,
@@ -199,6 +199,7 @@
 				0871D443169EDB6800484900 /* ViewController.m */,
 				0871D42B169EDB6800484900 /* Supporting Files */,
 			);
+			name = SounDraw;
 			path = SounDrow;
 			sourceTree = "<group>";
 		};
@@ -219,13 +220,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0871D451169EDB6800484900 /* SounDrowTests */ = {
+		0871D451169EDB6800484900 /* SounDrawTests */ = {
 			isa = PBXGroup;
 			children = (
 				0871D457169EDB6800484900 /* SounDrowTests.h */,
 				0871D458169EDB6800484900 /* SounDrowTests.m */,
 				0871D452169EDB6800484900 /* Supporting Files */,
 			);
+			name = SounDrawTests;
 			path = SounDrowTests;
 			sourceTree = "<group>";
 		};
