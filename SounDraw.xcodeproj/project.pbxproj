@@ -191,16 +191,15 @@
 			children = (
 				0871D433169EDB6800484900 /* AppDelegate.h */,
 				0871D434169EDB6800484900 /* AppDelegate.m */,
+				0871D43F169EDB6800484900 /* MainStoryboard_iPad.storyboard */,
+				0871D43C169EDB6800484900 /* MainStoryboard_iPhone.storyboard */,
 				0871D4DF16A9568C00484900 /* MyButton.h */,
 				0871D4E016A9568C00484900 /* MyButton.m */,
-				0871D43C169EDB6800484900 /* MainStoryboard_iPhone.storyboard */,
-				0871D43F169EDB6800484900 /* MainStoryboard_iPad.storyboard */,
+				0871D42B169EDB6800484900 /* Supporting Files */,
 				0871D442169EDB6800484900 /* ViewController.h */,
 				0871D443169EDB6800484900 /* ViewController.m */,
-				0871D42B169EDB6800484900 /* Supporting Files */,
 			);
-			name = SounDraw;
-			path = SounDrow;
+			path = SounDraw;
 			sourceTree = "<group>";
 		};
 		0871D42B169EDB6800484900 /* Supporting Files */ = {
@@ -227,8 +226,7 @@
 				0871D458169EDB6800484900 /* SounDrowTests.m */,
 				0871D452169EDB6800484900 /* Supporting Files */,
 			);
-			name = SounDrawTests;
-			path = SounDrowTests;
+			path = SounDrawTests;
 			sourceTree = "<group>";
 		};
 		0871D452169EDB6800484900 /* Supporting Files */ = {
@@ -245,8 +243,7 @@
 			children = (
 				0871D51D16B1110400484900 /* tones */,
 			);
-			name = sorce;
-			path = SounDrow;
+			path = sorce;
 			sourceTree = "<group>";
 		};
 		0871D51D16B1110400484900 /* tones */ = {
@@ -277,7 +274,8 @@
 				0871D53416B1110400484900 /* 7.4.m4a */,
 				0871D53516B1110400484900 /* 7.5.m4a */,
 			);
-			path = tones;
+			name = tones;
+			path = ../SounDraw/tones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,8 +540,8 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Taichi Furukawa (6V43XWY6W6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SounDrow/SounDraw-Prefix.pch";
-				INFOPLIST_FILE = "SounDrow/SounDraw-Info.plist";
+				GCC_PREFIX_HEADER = "SounDraw/SounDraw-Prefix.pch";
+				INFOPLIST_FILE = "SounDraw/SounDraw-Info.plist";
 				PRODUCT_NAME = SounDraw;
 				PROVISIONING_PROFILE = "C3788E72-529A-422C-8630-593AD5A4C240";
 				WRAPPER_EXTENSION = app;
@@ -555,8 +553,8 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Taichi Furukawa (6V43XWY6W6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SounDrow/SounDraw-Prefix.pch";
-				INFOPLIST_FILE = "SounDrow/SounDraw-Info.plist";
+				GCC_PREFIX_HEADER = "SounDraw/SounDraw-Prefix.pch";
+				INFOPLIST_FILE = "SounDraw/SounDraw-Info.plist";
 				PRODUCT_NAME = SounDraw;
 				PROVISIONING_PROFILE = "C3788E72-529A-422C-8630-593AD5A4C240";
 				WRAPPER_EXTENSION = app;
