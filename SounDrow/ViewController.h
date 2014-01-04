@@ -7,7 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import <OpenAL/al.h>
+#import <OpenAL/alc.h>
+#import "MyButton.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    UIColor* nomal_Color;
+    NSMutableArray *colorArr;
+    NSMutableArray *btnArrX;
+    NSTimer* cycle;
+    UIScreen *sc;
+    CGPoint startLocation;
+    
+}
+
+@property(nonatomic,retain)UIColor* nomal_Color;
+@property(nonatomic,retain)UIColor* action_Color;
+@property(nonatomic,retain)NSMutableArray *colorArr;
+@property(nonatomic,retain)NSMutableArray *btnArrX;
+@property(nonatomic,retain)NSTimer* cycle;
+
+
 
 @end
